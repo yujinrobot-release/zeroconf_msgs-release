@@ -1,0 +1,23 @@
+<package>
+  <name>zeroconf_msgs</name>
+  <version>0.1.8</version>
+  <description>
+    General ros communications used by the various zeroconf implementations.    
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <license>BSD</license>  
+
+  <url type="website">http://www.ros.org/wiki/zeroconf_msgs</url>
+  <url type="repository">https://github.com/stonier/zeroconf_msgs</url>
+  <url type="bugtracker">https://github.com/stonier/zeroconf_msgs/issues</url>
+  <author email="d.stonier@gmail.com">Daniel Stonier</author>
+
+  <build_depend>catkin</build_depend>
+  <build_depend>genmsg</build_depend>
+  <build_depend>langs-dev</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>langs</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
+
