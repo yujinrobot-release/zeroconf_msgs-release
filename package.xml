@@ -1,6 +1,6 @@
 <package>
   <name>zeroconf_msgs</name>
-  <version>0.1.8</version>
+  <version>0.2.0</version>
   <description>
     General ros communications used by the various zeroconf implementations.    
   </description>
