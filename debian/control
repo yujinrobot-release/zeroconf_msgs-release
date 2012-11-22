@@ -1,0 +1,12 @@
+Source: ros-groovy-zeroconf-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-langs-dev,ros-groovy-genmsg,ros-groovy-std-msgs,ros-groovy-catkin
+Homepage: http://www.ros.org/wiki/zeroconf_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-zeroconf-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-langs,ros-groovy-std-msgs
+Description: General ros communications used by the various zeroconf implementations.
