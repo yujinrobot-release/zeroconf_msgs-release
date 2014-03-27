@@ -1,0 +1,12 @@
+Source: ros-indigo-zeroconf-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: http://www.ros.org/wiki/zeroconf_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-zeroconf-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: General ros communications used by the various zeroconf implementations.
